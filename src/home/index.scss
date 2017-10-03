@@ -1,16 +1,233 @@
 @import "../styles/color";
-.App-header {
-  height: 200px;
-  border: 1px solid $pink-5;
-  img {
-    width: 100px;
-    height: 100px;
-    border: 1px solid $pink-5;
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.fullpage-header {
+  text-align: center;
+
+  > a {
+    padding: 4px 0;
+    color: #fff;
+    text-decoration: none;
+
+    &.active {
+      border-bottom: 3px solid $brand-info;
+    }
+  }
+  > a + a {
+    margin-left: 16px;
+  }
+}
+
+.nav {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  > span {
+    color: red;
+  }
+  width: 12px;
+  color: lime;
+  word-break: break-all;
+}
+
+.page-01,
+.page-02,
+.page-03,
+.page-04,
+.page-05 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 1px solid blue;
+  background-position: center;
+  -webkit-background-size: cover; //webkit核心
+  background-size: cover;
+}
+.page-01 {
+  background-image: url(../images/page_01.png);
+}
+
+.page-02 {
+  background-image: url(../images/page_02.png);
+
+  .page-02-footer {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    text-align: center;
+    > p {
+      margin-bottom: 16px;
+      text-align: center;
+    }
+  }
+}
+
+.page-03 {
+  text-align: center;
+  .description {
+    > span {
+      margin: 0 6px;
+      padding: 0 6px;
+      border: 1px solid $border-color;
+      vertical-align: middle;
+    }
   }
 
-  .page_01_1 {
-    width: 100px;
-    height: 100px;
-    background-image: url(../images/page_01_1.png);
+  .topology {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border: 1px solid $border-color;
+  }
+
+  .divider {
+    display: inline-block;
+    width: 0;
+    height: 14px;
+    margin: 0 16px;
+    border: 1px solid $border-color;
+    vertical-align: middle;
+  }
+}
+
+.page-04 {
+  background-image: url(../images/page_04.png);
+}
+
+.page-05 {
+  text-align: center;
+  .features {
+    > div {
+      display: inline-block;
+      width: 85px;
+      &:hover {
+        color: $brand-info;
+      }
+    }
+    > div + div {
+      margin-left: 20px;
+    }
+
+    .icon {
+      width: 82px;
+      height: 82px;
+      //border: 1px solid $border-color;
+    }
+
+    .icon-smart {
+      background-image: url(../images/icon_smart_investment.png);
+      &:hover {
+        background-image: url(../images/icon_smart_investment_active.png);
+      }
+    }
+    .icon-core {
+      background-image: url(../images/icon_core_technology.png);
+      &:hover {
+        background-image: url(../images/icon_core_technology_active.png);
+      }
+    }
+    .icon-technology {
+      background-image: url(../images/icon_technical_support.png);
+
+      &:hover {
+        background-image: url(../images/icon_technical_support_active.png);
+      }
+    }
+  }
+
+  .systems {
+    color: #fff;
+    > div {
+      display: inline-block;
+      width: 25%;
+      //min-width: 405px;
+      height: 200px;
+    }
+    .sys-oems {
+      background-image: url(../images/icon_sys_oems_bg.png);
+    }
+    .sys-ims {
+      background-image: url(../images/icon_sys_ims_bg.png);
+    }
+    .sys-data {
+      background-image: url(../images/icon_sys_data_bg.png);
+    }
+    .sys-cvm {
+      background-image: url(../images/icon_sys_cvm_bg.png);
+    }
+    .icon-sys {
+      width: 69px;
+      height: 59px;
+      border: 1px solid blue;
+    }
+    .icon-sys-oems {
+      background-image: url(../images/icon_sys_oems.png);
+    }
+    .icon-sys-data {
+      background-image: url(../images/icon_sys_data.png);
+    }
+    .icon-sys-ims {
+      background-image: url(../images/icon_sys_ims.png);
+    }
+    .icon-sys-cvm {
+      background-image: url(../images/icon_sys_cvm.png);
+    }
+  }
+}
+
+.page-06 {
+  .partners {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    .partners-item {
+      display: inline-block;
+      width: 240px;
+      height: 80px;
+    }
+    .partners-js {
+      background: url(../images/partner_js.png) no-repeat;
+    }
+    .partners-nh {
+      background: url(../images/partner_nh.png) no-repeat;
+    }
+    .partners-zx {
+      background: url(../images/partner_zx.png) no-repeat;
+    }
+    .partners-tpy {
+      background: url(../images/partner_tpy.png) no-repeat;
+    }
+  }
+  .page-06-footer {
+    background-color: #3e3833;
+    color: #fff;
+  }
+  .links {
+    display: inline-block;
+    min-width: 200px;
+    margin: auto;
+    vertical-align: top;
+    .links-title {
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+    > ul {
+      font-size: 12px;
+      list-style: none;
+      li {
+        list-style: none;
+      }
+    }
   }
 }
