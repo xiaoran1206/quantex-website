@@ -6,39 +6,31 @@ class FooterComponent extends Component {
     return (
         <div className="page-06-footer">
           <div className="logo-footer"></div>
-          <div className="links">
-            <h5 className="links-title">产品</h5>
-            <ul>
-              <li>QuantexOEMS</li>
-              <li>QuantexData</li>
-              <li>QuantexIMS</li>
-              <li>QuantexCVM</li>
-            </ul>
-          </div>
-          <div className="links">
-            <h5 className="links-title">解决方案</h5>
-            <ul>
-              <li>投资管理</li>
-              <li>数据分析</li>
-            </ul>
-          </div>
-          <div className="links">
-            <h5 className="links-title">服务</h5>
-            <ul>
-              <li>咨询服务</li>
-              <li>贴身方案</li>
-              <li>精良产品</li>
-              <li>优质实施</li>
-            </ul>
-          </div>
-          <div className="links">
-            <h5 className="links-title">联系我们</h5>
-            <ul>
-              <li>电话: 400-175-9889</li>
-              <li>邮箱: service@iquantex.com</li>
-              <li>地址: 北京市西城区西直门韩建金茂大厦C2座805室</li>
-            </ul>
-          </div>
+          <dl className="site-link">
+            <dt>产品</dt>
+            <dd>QuantexOEMS</dd>
+            <dd>QuantexData</dd>
+            <dd>QuantexIMS</dd>
+            <dd>QuantexCVM</dd>
+          </dl>
+          <dl className="site-link">
+            <dt>解决方案</dt>
+            <dd>投资管理</dd>
+            <dd>数据分析</dd>
+          </dl>
+          <dl className="site-link">
+            <dt>服务</dt>
+            <dd>咨询服务</dd>
+            <dd>贴身方案</dd>
+            <dd>精良产品</dd>
+            <dd>优质实施</dd>
+          </dl>
+          <dl className="site-link">
+            <dt>联系我们</dt>
+            <dd>电话: 400-175-9889</dd>
+            <dd>邮箱: service@iquantex.com</dd>
+            <dd>地址: 北京市西城区西直门韩建金茂大厦C2座805室</dd>
+          </dl>
         </div>
     )
   }
