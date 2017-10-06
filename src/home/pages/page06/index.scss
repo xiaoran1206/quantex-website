@@ -1,3 +1,10 @@
+.page-06 {
+  .main {
+    position: relative;
+    height: calc(100% - 240px);
+  }
+}
+
 .page-06-footer {
   height: 200px;
   padding-top: 40px;
@@ -57,4 +64,13 @@
   .partners-tpy {
     background: url(../../../images/partner_tpy.png) no-repeat;
   }
+}
+
+.back-to-top {
+  position: absolute;
+  right: 20px;
+  bottom: 60px;
+  width: 66px;
+  height: 66px;
+  background: url(../../../images/back_to_top.png) no-repeat;
 }

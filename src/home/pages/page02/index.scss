@@ -1,0 +1,17 @@
+@import "../../../styles/color";
+
+.page-02 {
+  background: url(../../../images/page_02.png) no-repeat;
+  .page-02-footer {
+    position: absolute;
+    width: 100%;
+    bottom: 60px;
+    color: $gray;
+    font-size: 20px;
+    text-align: center;
+    > p {
+      margin-bottom: 24px;
+      text-align: center;
+    }
+  }
+}

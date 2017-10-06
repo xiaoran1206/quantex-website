@@ -1,5 +1,28 @@
 @import "../../../styles/color";
 
+.page-03 {
+  .main {
+    height: calc(100% - 102px);
+  }
+  .description {
+    color: #9b9ba3;
+    font-size: 16px;
+    > span {
+      margin: 0 6px;
+      padding: 0 6px;
+      border: 1px solid $border-color;
+      vertical-align: middle;
+    }
+  }
+
+  .topology {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border: 1px solid $border-color;
+  }
+}
+
 .page-03-footer {
   margin-bottom: 80px;
   width: 100%;

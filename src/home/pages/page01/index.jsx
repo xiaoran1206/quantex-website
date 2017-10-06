@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Nav from '../nav/index';
-import '../index.css';
+import Nav from '../../nav/index';
+import './index.css';
 
 class Page01Component extends Component {
   render() {

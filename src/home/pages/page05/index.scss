@@ -1,10 +1,10 @@
 @import "../../../styles/color";
-$tel-color: #d6d6d6;
-$gray: #666;
-$darkgray: #383838; // 标题颜色
-$page-title-font-size: 36px;
-$page-title-color: $darkgray;
 
+.page-05 {
+  .main {
+    height: calc(100% - 360px);
+  }
+}
 
 .features {
   color: $tel-color;
@@ -59,7 +59,7 @@ $page-title-color: $darkgray;
     > div {
       display: inline-block;
       width: 25%;
-      height: 354px;
+      height: 300px;
     }
     .sys-oems {
       background: url(../../../images/icon_sys_oems_bg.png) no-repeat;

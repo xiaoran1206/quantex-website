@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Nav from '../nav/index';
-import Feature from './page05/Feature'; // 特色部分
-import Footer from './page05/Footer'; // 页脚部分
+import Nav from '../../nav/index';
+import Feature from './Feature'; // 特色部分
+import Footer from './Footer'; // 页脚部分
 
 class Page05Component extends Component {
   render() {
