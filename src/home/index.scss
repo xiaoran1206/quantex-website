@@ -12,12 +12,18 @@ ul {
   padding: 0;
 }
 
+body {
+  font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,sans-serif;
+}
+
 .fullpage-header {
+  padding-top: 40px;
+  font-size: 16px;
   text-align: center;
 
   > a {
     padding: 4px 0;
-    color: #fff;
+    color: $tel-color;
     text-decoration: none;
 
     &.active {
@@ -25,57 +31,72 @@ ul {
     }
   }
   > a + a {
-    margin-left: 16px;
+    margin-left: 24px;
   }
 }
 
-.nav {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  > span {
-    color: red;
-  }
-  width: 12px;
-  color: lime;
-  word-break: break-all;
-}
-
-.page-01,
-.page-02,
-.page-03,
-.page-04,
-.page-05 {
+.page-container {
   position: relative;
   width: 100%;
   height: 100%;
-  border: 1px solid blue;
+  min-width: 1200px;
   background-position: center;
   -webkit-background-size: cover; //webkit核心
   background-size: cover;
+  text-align: center;
 }
 .page-01 {
+  text-align: left;
+  padding-top: 24px;
   background-image: url(../images/page_01.png);
+  .logo-header {
+    display: inline-block;
+    width: 135px;
+    height: 44px;
+    margin-left: 200px;
+    background: url(../images/img_logo_hd.png) no-repeat;
+  }
+
+  .tel {
+    float: right;
+    margin-right: 200px;
+    margin-top: 16px;
+    font-size: 12px;
+    color: $tel-color;
+  }
+  .icon-tel {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 30px;
+    vertical-align: middle;
+    background: url(../images/icon_telphone.png) no-repeat;
+  }
 }
 
 .page-02 {
   background-image: url(../images/page_02.png);
-
   .page-02-footer {
     position: absolute;
     width: 100%;
-    bottom: 20px;
+    bottom: 60px;
+    color: $gray;
+    font-size: 20px;
     text-align: center;
     > p {
-      margin-bottom: 16px;
+      margin-bottom: 24px;
       text-align: center;
     }
   }
 }
 
 .page-03 {
-  text-align: center;
+  .main {
+    height: calc(100% - 102px);
+  }
   .description {
+    color: #9b9ba3;
+    font-size: 16px;
     > span {
       margin: 0 6px;
       padding: 0 6px;
@@ -90,15 +111,6 @@ ul {
     margin: auto;
     border: 1px solid $border-color;
   }
-
-  .divider {
-    display: inline-block;
-    width: 0;
-    height: 14px;
-    margin: 0 16px;
-    border: 1px solid $border-color;
-    vertical-align: middle;
-  }
 }
 
 .page-04 {
@@ -106,128 +118,20 @@ ul {
 }
 
 .page-05 {
-  text-align: center;
-  .features {
-    > div {
-      display: inline-block;
-      width: 85px;
-      &:hover {
-        color: $brand-info;
-      }
-    }
-    > div + div {
-      margin-left: 20px;
-    }
-
-    .icon {
-      width: 82px;
-      height: 82px;
-      //border: 1px solid $border-color;
-    }
-
-    .icon-smart {
-      background-image: url(../images/icon_smart_investment.png);
-      &:hover {
-        background-image: url(../images/icon_smart_investment_active.png);
-      }
-    }
-    .icon-core {
-      background-image: url(../images/icon_core_technology.png);
-      &:hover {
-        background-image: url(../images/icon_core_technology_active.png);
-      }
-    }
-    .icon-technology {
-      background-image: url(../images/icon_technical_support.png);
-
-      &:hover {
-        background-image: url(../images/icon_technical_support_active.png);
-      }
-    }
-  }
-
-  .systems {
-    color: #fff;
-    > div {
-      display: inline-block;
-      width: 25%;
-      //min-width: 405px;
-      height: 200px;
-    }
-    .sys-oems {
-      background-image: url(../images/icon_sys_oems_bg.png);
-    }
-    .sys-ims {
-      background-image: url(../images/icon_sys_ims_bg.png);
-    }
-    .sys-data {
-      background-image: url(../images/icon_sys_data_bg.png);
-    }
-    .sys-cvm {
-      background-image: url(../images/icon_sys_cvm_bg.png);
-    }
-    .icon-sys {
-      width: 69px;
-      height: 59px;
-      border: 1px solid blue;
-    }
-    .icon-sys-oems {
-      background-image: url(../images/icon_sys_oems.png);
-    }
-    .icon-sys-data {
-      background-image: url(../images/icon_sys_data.png);
-    }
-    .icon-sys-ims {
-      background-image: url(../images/icon_sys_ims.png);
-    }
-    .icon-sys-cvm {
-      background-image: url(../images/icon_sys_cvm.png);
-    }
+  .main {
+    height: calc(100% - 414px);
   }
 }
 
 .page-06 {
-  .partners {
-    width: 500px;
-    margin: 0 auto;
-    text-align: center;
-    .partners-item {
-      display: inline-block;
-      width: 240px;
-      height: 80px;
-    }
-    .partners-js {
-      background: url(../images/partner_js.png) no-repeat;
-    }
-    .partners-nh {
-      background: url(../images/partner_nh.png) no-repeat;
-    }
-    .partners-zx {
-      background: url(../images/partner_zx.png) no-repeat;
-    }
-    .partners-tpy {
-      background: url(../images/partner_tpy.png) no-repeat;
-    }
-  }
-  .page-06-footer {
-    background-color: #3e3833;
-    color: #fff;
-  }
-  .links {
-    display: inline-block;
-    min-width: 200px;
-    margin: auto;
-    vertical-align: top;
-    .links-title {
-      margin-bottom: 8px;
-      font-size: 14px;
-    }
-    > ul {
-      font-size: 12px;
-      list-style: none;
-      li {
-        list-style: none;
-      }
-    }
-  }
+  .main {
+     height: calc(100% - 240px);
+   }
+}
+
+.page-title {
+  margin-bottom: 40px;
+  padding-top: 60px;
+  color: $page-title-color;
+  font-size: $page-title-font-size;
 }

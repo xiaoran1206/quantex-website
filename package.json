@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "fullpage-react": "^3.0.7",
     "node-sass-chokidar": "0.0.3",
+    "normalize.css": "^7.0.0",
     "npm-run-all": "^4.1.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-fullpage": "^0.1.18",
-    "react-scripts": "1.0.14"
+    "react-scripts": "1.0.14",
+    "react-wordcloud": "0.0.1"
   },
   "scripts": {
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
@@ -20,6 +23,7 @@
     "test": "react-scripts test --env=jsdom"
   },
   "devDependencies": {
-    "create-react-app-sass": "^1.1.0"
+    "create-react-app-sass": "^1.1.0",
+    "normalize.css": "^7.0.0"
   }
 }

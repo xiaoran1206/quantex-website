@@ -1,0 +1,16 @@
+@import "../../styles/color";
+.nav {
+  position: absolute;
+  bottom: 140px;
+  left: 60px;
+  width: 12px;
+  color: #b2b1b1;
+  word-break: break-all;
+  > span {
+    display: inline-block;
+    height: 50px;
+    &.active {
+      color: $brand-info;
+    }
+  }
+}

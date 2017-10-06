@@ -1,0 +1,16 @@
+@import "../../../styles/color";
+
+.page-03-footer {
+  margin-bottom: 80px;
+  width: 100%;
+  color: #9b9ba3;
+  font-size: 14px;
+}
+.divider {
+  display: inline-block;
+  width: 0;
+  height: 14px;
+  margin: 0 70px;
+  border: 1px solid $border-color;
+  vertical-align: middle;
+}

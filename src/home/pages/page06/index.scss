@@ -1,0 +1,60 @@
+.page-06-footer {
+  height: 200px;
+  padding-top: 40px;
+  background-color: rgb(9, 19, 43);
+  color: #fff;
+
+  .logo-footer {
+    display: inline-block;
+    width: 135px;
+    height: 44px;
+    margin-right: 120px;
+    background: url(../../../images/img_logo_ft.png) no-repeat;
+  }
+  .links {
+    display: inline-block;
+    min-width: 200px;
+    margin: auto;
+    text-align: left;
+    vertical-align: top;
+    .links-title {
+      margin-bottom: 24px;
+      font-size: 14px;
+    }
+    > ul {
+      font-size: 12px;
+      color: #ababaf;
+      list-style: none;
+      li {
+        list-style: none;
+        margin-bottom: 16px;
+      }
+    }
+  }
+}
+// === 合作伙伴样式
+.partners {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  .partners-item {
+    display: inline-block;
+    width: 240px;
+    height: 80px;
+    &:nth-child(n+1) {
+      margin-left: 70px;
+    }
+  }
+  .partners-js {
+    background: url(../../../images/partner_js.png) no-repeat;
+  }
+  .partners-nh {
+    background: url(../../../images/partner_nh.png) no-repeat;
+  }
+  .partners-zx {
+    background: url(../../../images/partner_zx.png) no-repeat;
+  }
+  .partners-tpy {
+    background: url(../../../images/partner_tpy.png) no-repeat;
+  }
+}

@@ -1,25 +1,12 @@
 import React, { Component } from 'react';
-// import { Fullpage, Slide } from 'fullpage-react';
-// import logo from '../images/logo.svg';
+import { SectionsContainer, Section, Header, ScrollToTopOnMount } from 'react-fullpage';
 import { Page01, Page02, Page03, Page04, Page05, Page06 } from './pages';
 import './index.css';
-import { SectionsContainer, Section, Header } from 'react-fullpage';
-
-// const { Fullpage, Slide } = require('fullpage-react');
 
 class HomeComponent extends Component {
   render() {
-    // const fullPageOptions = {
-    //   scrollSensitivity: 7,
-    //   scrollSpeed: 500,
-    //   enableArrowKeys: true,
-    //   breakpoint: 375
-    // };
-    // const slides = [
-    //     <Slide>slide 1</Slide>
-    // ];
-    // fullPageOptions.slides = slides;
     let options = {
+      activeSection: 0,
       sectionClassName:     'section-container',
       anchors:              ['FinTech', '关于Quantex', '产品系列', 'section3', 'section4', 'section5'],
       scrollBar:            false,

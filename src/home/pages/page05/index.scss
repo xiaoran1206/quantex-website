@@ -1,0 +1,96 @@
+@import "../../../styles/color";
+$tel-color: #d6d6d6;
+$gray: #666;
+$darkgray: #383838; // 标题颜色
+$page-title-font-size: 36px;
+$page-title-color: $darkgray;
+
+
+.features {
+  color: $tel-color;
+  .features-item {
+    display: inline-block;
+    width: 85px;
+    &:hover {
+      color: $brand-info;
+
+      .icon-smart {
+        background: url(../../../images/icon_smart_investment_active.png) no-repeat;
+      }
+      .icon-core {
+        background: url(../../../images/icon_core_technology_active.png) no-repeat;
+      }
+      .icon-technology {
+        background: url(../../../images/icon_technical_support_active.png) no-repeat;
+      }
+    }
+  }
+  > div + div {
+    margin-left: 200px;
+  }
+
+  .icon {
+    width: 82px;
+    height: 82px;
+    margin-bottom: 30px;
+  }
+
+  .icon-smart {
+    background: url(../../../images/icon_smart_investment.png) no-repeat;
+  }
+  .icon-core {
+    background: url(../../../images/icon_core_technology.png) no-repeat;
+  }
+  .icon-technology {
+    background: url(../../../images/icon_technical_support.png) no-repeat;
+  }
+}
+
+.page-05-footer {
+  h4 {
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    background-color: rgb(80, 80, 80);
+    color: #fff;
+  }
+  .systems {
+    color: #fff;
+    > div {
+      display: inline-block;
+      width: 25%;
+      height: 354px;
+    }
+    .sys-oems {
+      background: url(../../../images/icon_sys_oems_bg.png) no-repeat;
+    }
+    .sys-ims {
+      background: url(../../../images/icon_sys_ims_bg.png) no-repeat;
+    }
+    .sys-data {
+      background: url(../../../images/icon_sys_data_bg.png) no-repeat;
+    }
+    .sys-cvm {
+      background: url(../../../images/icon_sys_cvm_bg.png) no-repeat;
+    }
+    .icon-sys {
+      display: inline-block;
+      width: 69px;
+      height: 59px;
+      margin-top: 100px;
+      margin-bottom: 50px;
+    }
+    .icon-sys-oems {
+      background: url(../../../images/icon_sys_oems.png) no-repeat;
+    }
+    .icon-sys-data {
+      background: url(../../../images/icon_sys_data.png) no-repeat;
+    }
+    .icon-sys-ims {
+      background: url(../../../images/icon_sys_ims.png) no-repeat;
+    }
+    .icon-sys-cvm {
+      background: url(../../../images/icon_sys_cvm.png) no-repeat;
+    }
+  }
+}
