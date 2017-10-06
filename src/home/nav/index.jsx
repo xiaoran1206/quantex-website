@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './index.css';
+
 // 字母导航组件
 class NavComponent extends Component {
   render() {

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Nav from '../../nav/index';
+import Arrow from '../../arrow/index'; // 向下滚动提示箭头
 import Feature from './Feature'; // 特色部分
 import Footer from './Footer'; // 页脚部分
 
@@ -15,6 +16,7 @@ class Page05Component extends Component {
             <Feature/>
           </div>
           <Footer/>
+          <Arrow/>
         </div>
     )
   }

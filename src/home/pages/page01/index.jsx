@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Nav from '../../nav/index';
+import Arrow from '../../arrow/index';
 import './index.css';
 
 class Page01Component extends Component {
@@ -12,6 +13,7 @@ class Page01Component extends Component {
             <i className="icon-tel"/>
             <span>400-400-1112</span>
           </div>
+          <Arrow/>
         </div>
     )
   }
