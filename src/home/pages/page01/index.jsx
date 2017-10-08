@@ -5,7 +5,8 @@ import './index.css';
 
 class Page01Component extends Component {
   componentDidMount() {
-    window.history.pushState(null, null, "/#FinTech");
+    // window.history.pushState(null, null, "/#FinTech");
+    window.location.href  = "#section3";
   }
   render() {
     return (
