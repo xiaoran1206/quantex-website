@@ -1,4 +1,4 @@
-var radius = 120;
+var radius = 240;
 var dtr = Math.PI/180;
 var d=300;
 //download by http://www.jq22.com
@@ -24,7 +24,6 @@ var oDiv=null;
  */
 window.tagCloud=function (selector)
 {
-    console.log("加载这个方法=====");
 	var i=0;
 	var oTag=null;
 	

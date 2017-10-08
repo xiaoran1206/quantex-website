@@ -1,9 +1,19 @@
 @import "../../../styles/variables";
-$darkblue: #darkblue;
+$darkblue: #0998d3;
+$blue: #009cdd;
+$lightblue: #189ff5;
+$darkgreen: #00c4d6;
+$green: #00ddc0;
+$lightgreen: #08c3b8;
+
 
 
 .page-02 {
+  .main {
+    padding-top: 100px;
+  }
   //background: url(../../../images/page_02.png) no-repeat;
+  background-color: #dfdfdf;
   .page-02-footer {
     position: absolute;
     width: 100%;
