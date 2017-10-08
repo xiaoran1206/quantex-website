@@ -7,8 +7,9 @@ class Page06Component extends Component {
 
   // 返回顶部 TODO: 不起作用
   backToTop = () => {
-    window.scrollTo(0, 0);
-    // this.forceUpdate();
+    // window.history.go(-5);
+    // window.history.replaceState(null, null, "/#FinTech");
+    window.location.href  = "#FinTech";
   };
   render() {
     return (

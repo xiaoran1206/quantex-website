@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { SectionsContainer, Section, Header, ScrollToTopOnMount } from 'react-fullpage';
+import { SectionsContainer, Section, Header } from 'react-fullpage';
 import { Page01, Page02, Page03, Page04, Page05, Page06 } from './pages';
 import './index.css';
 

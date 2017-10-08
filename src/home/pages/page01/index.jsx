@@ -4,6 +4,9 @@ import Arrow from '../../arrow/index';
 import './index.css';
 
 class Page01Component extends Component {
+  componentDidMount() {
+    window.history.pushState(null, null, "/#FinTech");
+  }
   render() {
     return (
         <div className="page-container page-01">
