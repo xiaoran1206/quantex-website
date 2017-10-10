@@ -50,7 +50,21 @@ body {
 
 .page-title {
   margin-bottom: 40px;
-  padding-top: 60px;
+  padding-top: 40px;
   color: $page-title-color;
-  font-size: $page-title-font-size;
+  text-align: center;
+  > h3 {
+    font-weight: 500;
+    font-size: 36px;
+  }
+  > hr {
+    display: inline-block;
+    width: 86px;
+    height: 4px;
+    margin: 8px;
+    background: $brand-info;
+    border: none;
+    border-radius: 4px;
+  }
 }
+

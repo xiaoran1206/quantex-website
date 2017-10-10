@@ -1,12 +1,10 @@
 .page-04 {
   //background: url(../../../images/page_04.png) no-repeat;
   .main {
-    display: inline-block;
-    width: 1200px;
+    //display: inline-block;
     height: 100%;
     margin: auto;
     box-sizing: border-box;
-    padding-top: 70px;
     .sec-left,
     .sec-middle,
     .sec-right {
@@ -28,7 +26,16 @@
 
     .sec-left {
       display: inline-block;
-      width: 300px;
+      width: 30%;
+      text-align: right;
+
+      .sec-left-content {
+        display: inline-block;
+      }
+
+      dl {
+        text-align: left;
+      }
 
       .img-solution-method {
         display: inline-block;
@@ -61,7 +68,7 @@
       }
     }
     .sec-right {
-      width: 638px;
+      width: calc(70% - 260px);
       .break {
         height: calc(100% / 3);
         .break-img {

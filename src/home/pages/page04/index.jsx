@@ -11,13 +11,15 @@ class Page04Component extends Component {
           <Nav active={4}/>
           <div className="main">
             <section className="sec-left">
-              <div className="img-solution-method">
-                <img src={img_solution_method} alt="解决方案"/>
+              <div className="sec-left-content">
+                <div className="img-solution-method">
+                  <img src={img_solution_method} alt="解决方案"/>
+                </div>
+                <dl>
+                  <dt>解决方案</dt>
+                  <dd>宽拓融合'数据'、'技术'、'专业投资'三<br/>大核心要素, 推出全新解决方案</dd>
+                </dl>
               </div>
-              <dl>
-                <dt>解决方案</dt>
-                <dd>宽拓融合'数据'、'技术'、'专业投资'三<br/>大核心要素, 推出全新解决方案</dd>
-              </dl>
             </section>
             <section className="sec-middle">
               <p className="h3">宽拓投资科技解决方案</p>

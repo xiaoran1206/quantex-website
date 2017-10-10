@@ -3,13 +3,29 @@
 .page-01 {
   text-align: left;
   padding-top: 24px;
-  background: url(../../../images/page_01.png) no-repeat;
-  .logo-header {
+  background: url(../../../images/page_01_bg.png) no-repeat;
+  .header-logo {
     float: left;
     width: 135px;
     height: 44px;
     margin-left: 200px;
-    background: url(../../../images/img_logo_hd.png) no-repeat;
+  }
+
+  .header-nav {
+    display: inline-block;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 16px;
+    list-style: none;
+    > li {
+      display: inline-block;
+      padding: 4px 8px;
+
+      &.active > a {
+        padding-bottom: 4px;
+        border-bottom: 2px solid $brand-info;
+      }
+    }
   }
 
   .tel {
@@ -26,5 +42,17 @@
     margin-right: 30px;
     vertical-align: middle;
     background: url(../../../images/icon_telphone.png) no-repeat;
+  }
+
+  .main {
+    height: calc(100% - 42px);
+    display: table;
+    .img-container {
+      display: table-cell;
+      vertical-align: middle;
+      > img {
+        vertical-align: middle;
+      }
+    }
   }
 }

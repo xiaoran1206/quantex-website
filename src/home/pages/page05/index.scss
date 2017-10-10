@@ -7,7 +7,8 @@
 }
 
 .features {
-  color: $tel-color;
+  color: #9f9f9f;
+  font-size: 18px;
   .features-item {
     display: inline-block;
     width: 85px;
@@ -26,7 +27,7 @@
     }
   }
   > div + div {
-    margin-left: 200px;
+    margin-left: 198px;
   }
 
   .icon {
@@ -48,14 +49,16 @@
 
 .page-05-footer {
   h4 {
-    height: 60px;
-    line-height: 60px;
+    height: 62px;
+    line-height: 62px;
     font-size: 20px;
-    background-color: rgb(80, 80, 80);
+    background-color: #505050;
+    font-weight: 500;
     color: #fff;
   }
   .systems {
     color: #fff;
+    font-size: 20px;
     > div {
       display: inline-block;
       width: 25%;
@@ -77,7 +80,7 @@
       display: inline-block;
       width: 69px;
       height: 59px;
-      margin-top: 100px;
+      margin-top: 80px;
       margin-bottom: 50px;
     }
     .icon-sys-oems {

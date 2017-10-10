@@ -10,9 +10,10 @@ class Page05Component extends Component {
         <div className="page-container page-05">
           <Nav active={5}/>
           <div className="main">
-            <h3 className="page-title">
-              宽拓<span>产品</span>系列
-            </h3>
+            <div className="page-title">
+              <h3>宽拓产品系列</h3>
+              <hr/>
+            </div>
             <Feature/>
           </div>
           <Footer/>

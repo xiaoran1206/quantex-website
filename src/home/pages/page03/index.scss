@@ -5,12 +5,12 @@
     height: calc(100% - 102px);
   }
   .description {
-    color: #9b9ba3;
+    color: #9b9aa5;
     font-size: 16px;
     > span {
       margin: 0 6px;
       padding: 0 6px;
-      border: 1px solid $border-color;
+      border: 1px solid #ededed;
       vertical-align: middle;
     }
   }
@@ -18,22 +18,26 @@
   .topology {
     width: 612px;
     height: 320px;
-    margin: 40px auto 0;
-    border: 1px solid $border-color;
+    margin: 10px auto 0;
+    //border: 1px solid $border-color;
   }
 }
 
 .page-03-footer {
   margin-bottom: 80px;
   width: 100%;
-  color: #9b9ba3;
+  color: #a5a4a9;
   font-size: 14px;
+  > a {
+    letter-spacing: 20px;
+  }
 }
 .divider {
   display: inline-block;
-  width: 0;
+  width: 2px;
   height: 14px;
   margin: 0 70px;
-  border: 1px solid $border-color;
+  background-color: #a5a4a9;
+  border: 0;
   vertical-align: middle;
 }

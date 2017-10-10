@@ -6,7 +6,7 @@ import './index.css';
 class HomeComponent extends Component {
   render() {
     let options = {
-      activeSection: 3,
+      activeSection: 5,
       sectionClassName:     'section-container',
       anchors:              ['FinTech', '关于Quantex', '产品系列', 'section3', 'section4', 'section5'],
       scrollBar:            false,
@@ -18,13 +18,6 @@ class HomeComponent extends Component {
     };
     return (
         <div>
-          <Header>
-            <div className="fullpage-header">
-              <a href="#FinTech">FinTech</a>
-              <a href="#关于Quantex">关于Quantex</a>
-              <a href="#产品系列">产品系列</a>
-            </div>
-          </Header>
           <SectionsContainer className="container" {...options}>
             <Section className="custom-section" verticalAlign="true"><Page01/></Section>
             <Section><Page02/></Section>

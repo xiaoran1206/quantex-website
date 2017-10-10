@@ -12,7 +12,7 @@ class TagCloudComponent extends Component {
   render() {
     return (
       <div id="tag-cloud">
-        <a className="dark-blue">智能化</a>
+        <a className="dark-blue" style={{ fontSize: '20px'}}>智能化</a>
         <a className="dark-blue">集约管理</a>
         <a className="dark-green">操作便捷</a>
         <a className="green">数据处理</a>
@@ -34,7 +34,7 @@ class TagCloudComponent extends Component {
         <a className="light-blue">分析优化</a>
         <a className="light-green">动态识别</a>
         <a className="light-green">相关因子</a>
-        <a className="blue">个性化</a>
+        <a className="blue" style={{ fontSize: '20px'}}>个性化</a>
         <a className="light-green">智能投顾</a>
         <a className="dark-green">标准服务</a>
         <a className="light-green">信息同步</a>
@@ -60,7 +60,7 @@ class TagCloudComponent extends Component {
         <a className="dark-blue">舆情监控</a>
         <a className="dark-green">客观决策</a>
         <a>个性化定制</a>
-        <a className="yellow">场景化</a>
+        <a className="yellow" style={{ fontSize: '20px'}}>场景化</a>
         <a>高端咨询</a>
         <a className="light-blue">垂直聚焦</a>
         <a>场景连接</a>

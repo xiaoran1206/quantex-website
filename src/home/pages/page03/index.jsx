@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import archPng from '../../../images/img_architecture.png';
 import Nav from '../../nav/index';
 import Arrow from '../../arrow/index'; // 向下滚动提示箭头
 import Footer from './Footer'; // 页脚部分
@@ -10,12 +11,15 @@ class Page03Component extends Component {
           <Nav active={3}/>
           <div className="main">
             <div className="page-03-header">
-              <h3 className="page-title">
-                宽拓产品<span>行业</span>提供服务
-              </h3>
-              <p className="description">宽拓科技为您提供<span>贴身方案</span><span>精良产品</span><span>优质实施</span>助力金融机构转型</p>
+              <div className="page-title">
+                <h3>宽拓行业提供服务</h3>
+                <hr/>
+                <p className="description">宽拓科技为您提供<span>贴身方案</span><span>精良产品</span><span>优质实施</span>助力金融机构转型</p>
+              </div>
             </div>
-            <div className="topology">图片</div>
+            <div className="topology">
+              <img src={archPng} alt="图片加载失败"/>
+            </div>
           </div>
           <Footer/>
           <Arrow/>

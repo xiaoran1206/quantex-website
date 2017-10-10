@@ -16,7 +16,10 @@ class Page06Component extends Component {
         <div className="page-container page-06">
           <Nav active={6}/>
           <div className="main">
-            <h3 className="page-title">核<span>心客</span>户</h3>
+            <div className="page-title">
+              <h3>核心客户</h3>
+              <hr/>
+            </div>
             <Partner/>
             <div className="back-to-top" onClick={this.backToTop}></div>
           </div>
