@@ -23,7 +23,7 @@ class Page01Component extends Component {
     return (
         <div className="page-container page-01">
           <Nav active={1}/>
-          <div>
+          <div className="page-01-header">
             <div className="header-logo">
               <img src={logo} alt="logo加载失败"/>
             </div>

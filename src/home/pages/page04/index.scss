@@ -1,3 +1,4 @@
+@import "../../../styles/variables";
 .page-04 {
   //background: url(../../../images/page_04.png) no-repeat;
   .main {
@@ -17,6 +18,11 @@
       margin-bottom: 20px;
       font-size: 20px;
       color: #2c2c2c;
+      .text-decoration {
+        padding-bottom: 4px;
+        display: inline-block;
+        border-bottom: 2px solid $brand-info;
+      }
     }
 
     dd {
@@ -27,7 +33,6 @@
     .sec-left {
       display: inline-block;
       width: 30%;
-      padding-top: 100px;
       text-align: right;
 
       .sec-left-content {
@@ -40,6 +45,7 @@
 
       .img-solution-method {
         display: inline-block;
+        margin-top: 100px;
         max-height: 400px;
         overflow: hidden;
       }
@@ -111,7 +117,7 @@
         }
 
         &:nth-child(2n+1) {
-          background: rgba(1, 1, 1, .1);
+          background: #ededed;
         }
       }
     }

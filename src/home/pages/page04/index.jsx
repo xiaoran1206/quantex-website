@@ -16,7 +16,7 @@ class Page04Component extends Component {
                   <img src={img_solution_method} alt="解决方案"/>
                 </div>
                 <dl>
-                  <dt>解决方案</dt>
+                  <dt><span className="text-decoration">解决</span>方案</dt>
                   <dd>宽拓融合'数据'、'技术'、'专业投资'三<br/>大核心要素, 推出全新解决方案</dd>
                 </dl>
               </div>
@@ -33,7 +33,7 @@ class Page04Component extends Component {
                 </div>
                 <div className="break-txt">
                   <dl>
-                    <dt>投资管理</dt>
+                    <dt><span className="text-decoration">投资</span>管理</dt>
                     <dd>提高投资决策能力<br/>提升产品运营效率</dd>
                   </dl>
                 </div>
@@ -45,7 +45,7 @@ class Page04Component extends Component {
                 </div>
                 <div className="break-txt">
                   <dl>
-                    <dt>数据分析</dt>
+                    <dt><span className="text-decoration">数据</span>分析</dt>
                     <dd>提高数据运营能力<br/>提升精细化管理能力</dd>
                   </dl>
                 </div>
@@ -57,7 +57,7 @@ class Page04Component extends Component {
                 </div>
                 <div className="break-txt">
                   <dl>
-                    <dt>方案特点</dt>
+                    <dt><span className="text-decoration">方案</span>特点</dt>
                     <dd>产品贴近客户打造,引领业务创新<br/>技术整合后优势明显,领先同行<br/>内嵌数据驱动式引擎,迎接AI未来</dd>
                   </dl>
                 </div>

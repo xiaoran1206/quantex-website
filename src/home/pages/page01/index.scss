@@ -4,6 +4,9 @@
   text-align: left;
   padding-top: 24px;
   background: url(../../../images/page_01_bg.png) no-repeat;
+  .page-01-header {
+    overflow: hidden; // 清除浮动
+  }
   .header-logo {
     float: left;
     width: 135px;
@@ -49,6 +52,7 @@
   }
 
   .main {
+    width: 100%;
     height: calc(100% - 42px);
     display: table;
     .img-container {
