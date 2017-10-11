@@ -1,7 +1,9 @@
+$footer: 200px;
+
 .page-06 {
   .main {
     position: relative;
-    height: calc(100% - 240px);
+    height: calc(100% - #{$footer});
   }
 }
 
@@ -38,14 +40,19 @@
 }
 // === 合作伙伴样式
 .partners {
-  width: 800px;
+  width: 900px;
+  height: 300px;
   margin: 0 auto;
+  padding-top: 66px;
   text-align: center;
+  background: url(../../../images/partner_bg.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
   .partners-item {
     display: inline-block;
     width: 240px;
     height: 80px;
-    &:nth-child(n+1) {
+    &:nth-child(2n) {
       margin-left: 70px;
     }
   }
@@ -66,7 +73,7 @@
 .back-to-top {
   position: absolute;
   right: 30px;
-  bottom: 60px;
+  bottom: 30px;
   width: 66px;
   height: 66px;
   background: url(../../../images/back_to_top.png) no-repeat;

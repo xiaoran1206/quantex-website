@@ -16,9 +16,10 @@
   }
 
   .topology {
-    width: 612px;
-    height: 320px;
-    margin: 10px auto 0;
+    width: 600px;
+    height: 426px;
+    margin: auto;
+    margin-top: calc(100% - 184px - 426px) / 2;
     //border: 1px solid $border-color;
   }
 }

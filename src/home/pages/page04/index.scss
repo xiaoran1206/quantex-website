@@ -27,6 +27,7 @@
     .sec-left {
       display: inline-block;
       width: 30%;
+      padding-top: 100px;
       text-align: right;
 
       .sec-left-content {
@@ -39,7 +40,6 @@
 
       .img-solution-method {
         display: inline-block;
-        margin-top: 80px;
         max-height: 400px;
         overflow: hidden;
       }

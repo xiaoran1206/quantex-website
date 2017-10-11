@@ -5,13 +5,13 @@ $lightblue: #189ff5;
 $darkgreen: #00c4d6;
 $green: #00ddc0;
 $lightgreen: #08c3b8;
-
-
+$tag-cloud-height: 450px;
+$footer-height: 152px;
 
 .page-02 {
   background: url(../../../images/page_02_bg.png) no-repeat;
   .main {
-    padding-top: 20px;
+    padding-top: calc((50% - #{$footer-height} / 2 - #{$tag-cloud-height}) / 2); // 168px / 2 = 84px
   }
   //background: url(../../../images/page_02.png) no-repeat;
   background-color: #dfdfdf;
@@ -23,7 +23,7 @@ $lightgreen: #08c3b8;
     font-size: 20px;
     text-align: center;
     > p {
-      margin-bottom: 24px;
+      margin-bottom: 16px;
       text-align: center;
     }
   }
