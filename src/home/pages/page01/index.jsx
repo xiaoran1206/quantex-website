@@ -6,10 +6,14 @@ import pageTitlePng from '../../../images/page_01_title.png';
 import './index.css';
 
 class Page01Component extends Component {
+  // state = {
+  //   curPage: "#FinTech"
+  // };
   componentDidMount() {
-    // window.history.pushState(null, null, "/#FinTech");
-    window.location.href  = "#section5";
+    window.history.pushState(null, null, "/#FinTech");
+    // window.location.href  = "#FinTech";
   }
+
   render() {
     return (
         <div className="page-container page-01">
