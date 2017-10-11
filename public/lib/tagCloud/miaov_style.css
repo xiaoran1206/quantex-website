@@ -3,22 +3,24 @@ body {background: #000 url(index.png) no-repeat center 230px;}
 #tag-cloud a {position:absolute; top:0px; left:0px; font-family: Microsoft YaHei; color:#fff; font-weight:500; text-decoration:none; padding: 3px 6px; }
 #tag-cloud a:hover {border: 1px solid #a99090; }
 
-#tag-cloud .c-76bcfa {
-    color: #76bcfa;
+#tag-cloud .c-76bcfa,
+#tag-cloud .c-39a2d9,
+#tag-cloud .c-88d8e3 {
     font-size: 46px !important;
     font-weight: 600;
+}
+
+
+#tag-cloud .c-76bcfa {
+    color: #76bcfa;
 }
 
 #tag-cloud .c-39a2d9 {
     color: #39a2d9;
-    font-size: 46px !important;
-    font-weight: 600;
 }
 
 #tag-cloud .c-88d8e3 {
     color: #88d8e3;
-    font-size: 46px !important;
-    font-weight: 600;
 }
 
 #tag-cloud .dark-blue {
