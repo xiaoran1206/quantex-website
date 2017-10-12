@@ -1,3 +1,4 @@
+@import "../../../styles/variables";
 $footer: 200px;
 
 .page-06 {
@@ -18,7 +19,7 @@ $footer: 200px;
     width: 135px;
     height: 44px;
     margin-right: 120px;
-    background: url(../../../images/img_logo_ft.png) no-repeat;
+    background: url('#{$imgDir}page06/img_logo_ft.png') no-repeat;
   }
   .site-link {
     display: inline-block;
@@ -45,7 +46,7 @@ $footer: 200px;
   margin: 0 auto;
   padding-top: 66px;
   text-align: center;
-  background: url(../../../images/partner_bg.png) no-repeat;
+  background: url('#{$imgDir}page06/partner_bg.png') no-repeat;
   background-size: 100% 100%;
   background-position: center;
   .partners-item {
@@ -57,16 +58,16 @@ $footer: 200px;
     }
   }
   .partners-js {
-    background: url(../../../images/partner_js.png) no-repeat;
+    background: url('#{$imgDir}page06/partner_js.png') no-repeat;
   }
   .partners-nh {
-    background: url(../../../images/partner_nh.png) no-repeat;
+    background: url('#{$imgDir}page06/partner_nh.png') no-repeat;
   }
   .partners-zx {
-    background: url(../../../images/partner_zx.png) no-repeat;
+    background: url('#{$imgDir}page06/partner_zx.png') no-repeat;
   }
   .partners-tpy {
-    background: url(../../../images/partner_tpy.png) no-repeat;
+    background: url('#{$imgDir}page06/partner_tpy.png') no-repeat;
   }
 }
 
@@ -76,5 +77,5 @@ $footer: 200px;
   bottom: 30px;
   width: 66px;
   height: 66px;
-  background: url(../../../images/back_to_top.png) no-repeat;
+  background: url('#{$imgDir}page06/back_to_top.png') no-repeat;
 }

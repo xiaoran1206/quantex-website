@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import archPng from '../../../images/img_architecture.png';
+import archPng from '../../../images/page03/img_architecture.png';
 import Nav from '../../nav/index';
 import Arrow from '../../arrow/index'; // 向下滚动提示箭头
 import Footer from './Footer'; // 页脚部分
@@ -18,7 +18,9 @@ class Page03Component extends Component {
               </div>
             </div>
             <div className="topology">
-              <img src={archPng} alt="图片加载失败"/>
+              <span className="topology-img">
+                <img src={archPng} alt="图片加载失败"/>
+              </span>
             </div>
           </div>
           <Footer/>

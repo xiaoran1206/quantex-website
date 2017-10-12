@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
-import img_solution_method from '../../../images/img_solution_method.png';
+import img_01 from '../../../images/page04/img_01.png';
+import img_02 from '../../../images/page04/img_02.png';
+import img_03 from '../../../images/page04/img_03.png';
+import img_04 from '../../../images/page04/img_04.png';
+import img_05 from '../../../images/page04/img_05.png';
+import img_06 from '../../../images/page04/img_06.png';
+import img_solution_method from '../../../images/page04/img_solution_method.png';
 import Nav from '../../nav/index';
 import Arrow from '../../arrow/index'; // 向下滚动提示箭头
 import './index.css';
@@ -28,8 +34,8 @@ class Page04Component extends Component {
             <section className="sec-right">
               <div className="break">
                 <div className="break-img">
-                  <div className="break-img-item img-01"></div>
-                  <div className="break-img-item img-02"></div>
+                  <img src={img_01} alt="图片加载失败"/>
+                  <img src={img_02} alt="图片加载失败"/>
                 </div>
                 <div className="break-txt">
                   <dl>
@@ -40,8 +46,8 @@ class Page04Component extends Component {
               </div>
               <div className="break">
                 <div className="break-img">
-                  <div className="break-img-item img-03"></div>
-                  <div className="break-img-item img-04"></div>
+                  <img src={img_03} alt="图片加载失败"/>
+                  <img src={img_04} alt="图片加载失败"/>
                 </div>
                 <div className="break-txt">
                   <dl>
@@ -52,8 +58,8 @@ class Page04Component extends Component {
               </div>
               <div className="break">
                 <div className="break-img">
-                  <div className="break-img-item img-05"></div>
-                  <div className="break-img-item img-06"></div>
+                  <img src={img_05} alt="图片加载失败"/>
+                  <img src={img_06} alt="图片加载失败"/>
                 </div>
                 <div className="break-txt">
                   <dl>

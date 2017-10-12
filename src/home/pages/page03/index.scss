@@ -3,6 +3,8 @@
 .page-03 {
   .main {
     height: calc(100% - 102px);
+    display: flex;
+    flex-direction: column;
   }
   .description {
     color: #9b9aa5;
@@ -16,10 +18,16 @@
   }
 
   .topology {
-    width: 600px;
-    height: 426px;
-    margin: auto;
-    margin-top: calc(100% - 184px - 426px) / 2;
+    flex: 1;
+    display: flex;
+
+    .topology-img {
+      margin: auto;
+    }
+    //width: 600px;
+    //height: 426px;
+    //margin: auto;
+    //margin-top: calc( 100% - 184px - 426px ) / 2;
     //border: 1px solid $border-color;
   }
 }

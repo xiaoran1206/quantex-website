@@ -9,7 +9,7 @@ $tag-cloud-height: 450px;
 $footer-height: 152px;
 
 .page-02 {
-  background: url(../../../images/page_02_bg.png) no-repeat;
+  background: url('#{$imgDir}page02/page_02_bg.png') no-repeat;
   .main {
     padding-top: calc((50% - #{$footer-height} / 2 - #{$tag-cloud-height}) / 2); // 168px / 2 = 84px
   }

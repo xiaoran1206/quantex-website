@@ -6,7 +6,7 @@ import './index.css';
 class HomeComponent extends Component {
   render() {
     let options = {
-      activeSection: 5,
+      activeSection: 4,
       sectionClassName:     'section-container',
       anchors:              ['FinTech', '关于Quantex', '产品系列', 'section3', 'section4', 'section5'],
       scrollBar:            false,

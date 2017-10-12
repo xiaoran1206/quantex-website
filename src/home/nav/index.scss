@@ -1,11 +1,13 @@
 @import "../../styles/variables";
 .nav {
   position: absolute;
-  bottom: 140px;
+  top: 50%;
   left: 60px;
   width: 12px;
   color: #b2b1b1;
+  font-size: 16px;
   word-break: break-all;
+  transform: translateY(-50%);
   > span {
     display: inline-block;
     height: 50px;

@@ -31,23 +31,20 @@
     }
 
     .sec-left {
+      position: relative;
       display: inline-block;
       width: 30%;
       text-align: right;
 
       .sec-left-content {
-        display: inline-block;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
       }
 
       dl {
         text-align: left;
-      }
-
-      .img-solution-method {
-        display: inline-block;
-        margin-top: 100px;
-        max-height: 400px;
-        overflow: hidden;
       }
     }
     .sec-middle {
@@ -66,10 +63,11 @@
       }
       .h4 {
         position: absolute;
-        right: -20px;
+        right: -70px;
         top: 70%;
-        font-size: 14px;
-        font-weight: 500;
+        font-size: 22px;
+        width: 120%;
+        //font-weight: 500;
         transform: rotate(90deg);
       }
     }
@@ -82,29 +80,10 @@
           width: 200px;
           height: 100%;
 
-          .img-01 {
-            background: url(../../../images/img_01.png) no-repeat;
-          }
-          .img-02 {
-            background: url(../../../images/img_02.png) no-repeat;
-          }
-          .img-03 {
-            background: url(../../../images/img_03.png) no-repeat;
-          }
-          .img-04 {
-            background: url(../../../images/img_04.png) no-repeat;
-          }
-          .img-05 {
-            background: url(../../../images/img_05.png) no-repeat;
-          }
-          .img-06 {
-             background: url(../../../images/img_06.png) no-repeat;
-           }
-          .break-img-item {
+          > img {
             width: 100%;
             height: 50%;
-            -webkit-background-size: cover; //webkit核心
-            background-size: cover;
+            vertical-align: middle;
           }
         }
 
