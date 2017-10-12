@@ -57,6 +57,7 @@ $footer: 200px;
       margin-left: 70px;
     }
   }
+
   .partners-js {
     background: url('#{$imgDir}page06/partner_js.png') no-repeat;
   }
@@ -68,6 +69,12 @@ $footer: 200px;
   }
   .partners-tpy {
     background: url('#{$imgDir}page06/partner_tpy.png') no-repeat;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .partners {
+    background: url('#{$imgDir}page06/partner_bg_lg.png') no-repeat;
   }
 }
 
