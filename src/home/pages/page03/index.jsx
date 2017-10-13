@@ -27,7 +27,7 @@ class Page03Component extends Component {
             </div>
           </div>
           <Footer/>
-          <Arrow/>
+          <Arrow nextIndex={3}/>
         </div>
     )
   }

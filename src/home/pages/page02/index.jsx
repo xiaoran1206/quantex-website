@@ -16,7 +16,7 @@ class Page02Component extends Component {
             <p>通过深度的、360度无死角的技术分析, 建立企业用户画像,</p>
             <p>达到产品与用户的精准匹配, 全方位满足每个用户的个性需求, 帮助企业完成精准营销。</p>
           </div>
-          <Arrow/>
+          <Arrow nextIndex={2}/>
         </div>
     )
   }

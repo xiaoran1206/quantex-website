@@ -23,8 +23,7 @@ class TagCloudComponent extends Component {
         <a className="green">在线分析</a>
         <a className="dark-blue">高效统计</a>
         <a className="light-green">兼容拓展</a>
-        <a className="light-green">可视化展示</a>
-        <a className="blue">可视化展示</a>
+        <a className="c-83c0ff">可视化展示</a>
         <a className="light-green">业务集成</a>
         <a className="light-blue">平台灵活</a>
         <a className="dark-green">安全稳定</a>
@@ -55,12 +54,12 @@ class TagCloudComponent extends Component {
         <a className="light-green">需求驱动</a>
         <a className="light-blue">聚类有序</a>
         <a className="dark-green">因子特征</a>
-        <a className="green">策略有效</a>
+        <a className="c-839dff">策略有效</a>
         <a className="light-green">择时调整</a>
         <a className="dark-blue">舆情监控</a>
         <a className="dark-green">客观决策</a>
         <a className="c-6db7e4">个性化定制</a>
-        <a className="c-88d8e3" style={{ fontSize: '36px'}}>场景化</a>
+        <a className="c-978ffd" style={{ fontSize: '36px'}}>场景化</a>
         <a className="purple">高端咨询</a>
         <a className="light-blue">垂直聚焦</a>
         <a className="c-6bb8e6">场景连接</a>
@@ -78,7 +77,7 @@ class TagCloudComponent extends Component {
         <a className="green">按需治理</a>
         <a className="blue">人才储备</a>
         <a className="c-6bb8e6">注重创新</a>
-        <a className="light-blue">供需驱动</a>
+        <a className="c-bfbafe">供需驱动</a>
         <a className="dark-green">合规监管</a>
         <a className="dark-green">聚焦业务</a>
         <a className="dark-blue">成本低廉</a>

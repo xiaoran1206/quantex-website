@@ -8,7 +8,7 @@ class HomeComponent extends Component {
     let options = {
       activeSection: 4,
       sectionClassName:     'section-container',
-      anchors:              ['FinTech', '关于Quantex', '产品系列', 'section3', 'section4', 'section5'],
+      anchors:              ['FinTech', '关于Quantex', '产品系列', 'Solution', 'Feature', 'Partner'],
       scrollBar:            false,
       navigation:           false,
       verticalAlign:        false,

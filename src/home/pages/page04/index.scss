@@ -87,6 +87,12 @@
           }
         }
 
+        @media screen and (min-width: 1600px) {
+          .break-img {
+            width: 300px;
+          }
+        }
+
         .break-txt {
           display: flex;
           height: 100%;

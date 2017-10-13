@@ -11,7 +11,9 @@ $footer-height: 152px;
 .page-02 {
   background: url('#{$imgDir}page02/page_02_bg.png') no-repeat;
   .main {
-    padding-top: calc((50% - #{$footer-height} / 2 - #{$tag-cloud-height}) / 2); // 168px / 2 = 84px
+    //padding-top: calc((50% - #{$footer-height} / 2 - #{$tag-cloud-height}) / 2); // 168px / 2 = 84px
+    height: calc(100% - 152px);
+    display: flex;
   }
   background-color: #dfdfdf;
   .page-02-footer {

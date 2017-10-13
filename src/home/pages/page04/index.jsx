@@ -70,7 +70,7 @@ class Page04Component extends Component {
               </div>
             </section>
           </div>
-          <Arrow/>
+          <Arrow nextIndex={4}/>
         </div>
     )
   }

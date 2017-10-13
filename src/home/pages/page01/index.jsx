@@ -42,7 +42,7 @@ class Page01Component extends Component {
              <img src={pageTitlePng} alt="图片加载失败"/>
            </div>
           </div>
-          <Arrow/>
+          <Arrow nextIndex={1}/>
         </div>
     )
   }

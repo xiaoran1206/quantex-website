@@ -17,7 +17,7 @@ class Page05Component extends Component {
             <Feature/>
           </div>
           <Footer/>
-          <Arrow/>
+          <Arrow nextIndex={5}/>
         </div>
     )
   }
