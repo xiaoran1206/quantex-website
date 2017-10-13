@@ -21,8 +21,8 @@ class Page03Component extends Component {
             <div className="topology">
               <span className="topology-img">
                 <img src={archPng} alt="图片加载失败"
-                     srcSet={'#{$archPng} 592w, #{$archPngLg} 1158w'}
-                     sizes="(max-width: 592px) 592px, 1158px"/>
+                     srcSet={`${archPng} 592w, ${archPngLg} 1158w`}
+                     sizes="(max-width: 1920px) 592px, 1158px"/>
               </span>
             </div>
           </div>

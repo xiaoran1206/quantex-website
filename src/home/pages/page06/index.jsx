@@ -20,7 +20,9 @@ class Page06Component extends Component {
               <h3>核心客户</h3>
               <hr/>
             </div>
-            <Partner/>
+            <div className="partner-container">
+              <Partner/>
+            </div>
             <div className="back-to-top" onClick={this.backToTop}></div>
           </div>
           <Footer/>

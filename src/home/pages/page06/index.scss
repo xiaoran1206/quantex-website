@@ -40,43 +40,32 @@ $footer: 200px;
   }
 }
 // === 合作伙伴样式
+.partner-container {
+  height: calc(100% - 158px);
+  display: flex;
+}
 .partners {
-  width: 900px;
-  height: 300px;
-  margin: 0 auto;
-  padding-top: 66px;
+  width: 973px;
+  height: 353px;
+  margin: auto;
+  padding-top: 85px;
   text-align: center;
   background: url('#{$imgDir}page06/partner_bg.png') no-repeat;
   background-size: 100% 100%;
   background-position: center;
-  .partners-item {
+  img {
     display: inline-block;
-    width: 240px;
-    height: 80px;
     &:nth-child(2n) {
       margin-left: 70px;
     }
   }
-
-  .partners-js {
-    background: url('#{$imgDir}page06/partner_js.png') no-repeat;
-  }
-  .partners-nh {
-    background: url('#{$imgDir}page06/partner_nh.png') no-repeat;
-  }
-  .partners-zx {
-    background: url('#{$imgDir}page06/partner_zx.png') no-repeat;
-  }
-  .partners-tpy {
-    background: url('#{$imgDir}page06/partner_tpy.png') no-repeat;
-  }
 }
 
-@media screen and (min-width: 1600px) {
-  .partners {
-    background: url('#{$imgDir}page06/partner_bg_lg.png') no-repeat;
-  }
-}
+//@media screen and (min-width: 1600px) {
+//  .partners {
+//    background: url('#{$imgDir}page06/partner_bg_lg.png') no-repeat;
+//  }
+//}
 
 .back-to-top {
   position: absolute;

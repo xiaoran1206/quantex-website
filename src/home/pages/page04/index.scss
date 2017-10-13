@@ -1,8 +1,6 @@
 @import "../../../styles/variables";
 .page-04 {
-  //background: url(../../../images/page_04.png) no-repeat;
   .main {
-    //display: inline-block;
     height: 100%;
     margin: auto;
     box-sizing: border-box;
@@ -63,12 +61,14 @@
       }
       .h4 {
         position: absolute;
-        right: -70px;
-        top: 70%;
+        right: 55px;
+        top: 55%;
+        height: 350px;
         font-size: 22px;
-        width: 120%;
-        //font-weight: 500;
-        transform: rotate(90deg);
+        //-ms-writing-mode: tb-rl; 不兼容低版本 IE
+        //writin-mode: tb-rl;
+        -webkit-writing-mode: vertical-rl;
+        writing-mode: vertical-rl;
       }
     }
     .sec-right {

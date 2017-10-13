@@ -13,7 +13,6 @@ $footer-height: 152px;
   .main {
     padding-top: calc((50% - #{$footer-height} / 2 - #{$tag-cloud-height}) / 2); // 168px / 2 = 84px
   }
-  //background: url(../../../images/page_02.png) no-repeat;
   background-color: #dfdfdf;
   .page-02-footer {
     position: absolute;
