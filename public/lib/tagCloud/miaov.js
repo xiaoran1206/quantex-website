@@ -7,7 +7,7 @@ var active = false;
 var lasta = 1;
 var lastb = 1;
 var distr = true;
-var tspeed=4; // 10
+var tspeed=28; // 10
 var size=250;
 
 var mouseX=0;
@@ -208,7 +208,7 @@ function positionAll()
 		mcList[i-1].cx = radius * Math.cos(theta)*Math.sin(phi);
 		mcList[i-1].cy = radius * Math.sin(theta)*Math.sin(phi);
 		mcList[i-1].cz = radius * Math.cos(phi);
-		
+        // 原点是 (cloud.offsetWidth/2, cloud.offsetHeight/2) (TODO(Sharon): 可能是错误的备注)
 		aA[i-1].style.left=mcList[i-1].cx+oDiv.offsetWidth/2-mcList[i-1].offsetWidth/2+'px';
 		aA[i-1].style.top=mcList[i-1].cy+oDiv.offsetHeight/2-mcList[i-1].offsetHeight/2+'px';
 	}
@@ -223,7 +223,7 @@ function doPosition()
 		aA[i].style.left=mcList[i].cx+l-mcList[i].offsetWidth/2+'px';
 		aA[i].style.top=mcList[i].cy+t-mcList[i].offsetHeight/2+'px';
 		
-		aA[i].style.fontSize=Math.ceil(12*mcList[i].scale/2)+8+'px';
+		aA[i].style.fontSize=Math.ceil(12*mcList[i].scale/2)+'px'; // 字体大小
 		
 		aA[i].style.filter="alpha(opacity="+100*mcList[i].alpha+")";
 		aA[i].style.opacity=mcList[i].alpha;

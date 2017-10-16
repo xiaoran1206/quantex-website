@@ -19,10 +19,17 @@
 
   .topology {
     flex: 1;
-    display: flex;
+    //display: flex;
+    position: relative;
 
     .topology-img {
-      margin: auto;
+      position: absolute;
+      //margin: auto;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      //animation: easeIn 5s ease-in 1;
+      //animation-fill-mode: forwards;
     }
   }
 }
@@ -44,4 +51,15 @@
   background-color: #a5a4a9;
   border: 0;
   vertical-align: middle;
+}
+
+@keyframes easeIn {
+  from {
+    right: 0;
+    transform: translateX(0);
+  }
+  to {
+    right: 50%;
+    transform: translateX(-50%);
+  }
 }

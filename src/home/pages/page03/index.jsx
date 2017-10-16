@@ -6,7 +6,12 @@ import Arrow from '../../arrow/index'; // 向下滚动提示箭头
 import Footer from './Footer'; // 页脚部分
 
 class Page03Component extends Component {
+  constructor() {
+    super();
+    console.log("走进 constructor -======");
+  }
   render() {
+    console.log("进来一次");
     return (
         <div className="page-container page-03">
           <Nav active={3}/>
