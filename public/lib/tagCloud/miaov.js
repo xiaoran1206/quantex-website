@@ -1,4 +1,4 @@
-var radius = 280; // 240
+var radius = 240; // 240
 var dtr = Math.PI/180;
 var d=300;
 //download by http://www.jq22.com
@@ -7,7 +7,7 @@ var active = false;
 var lasta = 1;
 var lastb = 1;
 var distr = true;
-var tspeed=28; // 10
+var tspeed=6; // 10
 var size=250;
 
 var mouseX=0;
@@ -117,7 +117,7 @@ function update()
 		
 		mcList[j].x=(howElliptical*rx3*per)-(howElliptical*2);
 		mcList[j].y=ry3*per;
-		mcList[j].scale=per;
+		mcList[j].scale=per; // per
 		mcList[j].alpha=per;
 		
 		mcList[j].alpha=(mcList[j].alpha-0.6)*(10/6);
@@ -223,7 +223,7 @@ function doPosition()
 		aA[i].style.left=mcList[i].cx+l-mcList[i].offsetWidth/2+'px';
 		aA[i].style.top=mcList[i].cy+t-mcList[i].offsetHeight/2+'px';
 		
-		aA[i].style.fontSize=Math.ceil(12*mcList[i].scale/2)+'px'; // 字体大小
+		// aA[i].style.fontSize=Math.ceil(12*mcList[i].scale/2)+'px'; // 字体大小 12*mcList[i].scale/2
 		
 		aA[i].style.filter="alpha(opacity="+100*mcList[i].alpha+")";
 		aA[i].style.opacity=mcList[i].alpha;
