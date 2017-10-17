@@ -48,11 +48,14 @@ $footer: 200px;
   width: 973px;
   height: 353px;
   margin: auto;
-  padding-top: 85px;
+  padding-top: 75px;
   text-align: center;
   background: url('#{$imgDir}page06/partner_bg.png') no-repeat;
   background-size: 100% 100%;
   background-position: center;
+  > li:first-child {
+    margin-bottom: 24px;
+  }
   img {
     display: inline-block;
     &:nth-child(2n) {
