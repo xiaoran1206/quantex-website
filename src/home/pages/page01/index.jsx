@@ -34,7 +34,7 @@ class Page01Component extends Component {
             </div>
             <div className="tel">
               <i className="icon-tel"/>
-              <span>010-533-6401</span>
+              <span>010-533-66401</span>
             </div>
           </div>
           <div className="main">

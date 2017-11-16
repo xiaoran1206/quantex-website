@@ -27,7 +27,7 @@ class FooterComponent extends Component {
           </dl>
           <dl className="site-link">
             <dt>联系我们</dt>
-            <dd>电话: 400-175-9889</dd>
+            <dd>电话: 010-533-66401</dd>
             <dd>邮箱: service@iquantex.com</dd>
             <dd>地址: 北京市西城区西直门韩建金茂大厦C2座805室</dd>
           </dl>
